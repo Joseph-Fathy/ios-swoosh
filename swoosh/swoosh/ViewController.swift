@@ -14,14 +14,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //reposition the logo to ceneter horizontally
-        swoosh.frame=CGRect(x: (view.frame.width/2)-(swoosh.frame.width/2),
-                            y: 50.0, width: swoosh.frame.width, height: swoosh.frame.height)
-        
-        //make the bagrounnd image fill the screen
-        bgImg.frame=view.frame
-        
     }
 
 
